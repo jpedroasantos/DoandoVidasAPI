@@ -11,6 +11,7 @@
 	<groupId>br.com.abr3dev</groupId>
 	<artifactId>DoandoVidasAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>DoandoVidasAPI</name>
 	<description>API para o app DoandoVidas.</description>
 
