@@ -15,7 +15,7 @@ public class ContentDto {
 	
 	private Long id;
 	
-	@Size(max=300, message="Tamanho da mensagem deve ser de 300 caracteres.")
+	@Size(max=300, message="Tamanho da mensagem deve ser de, no máximo, 300 caracteres.")
 	private String message; 
 	
 	private String video;
