@@ -26,7 +26,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'doandovidasapi'
-        slot-name: 'production'
+        app-name: DoandoVidasAPI
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_721417c3791f4f689d6144967791a121 }}
         package: '${{ github.workspace }}/target/*.war'
